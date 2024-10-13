@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login KUADMIN</title>
+    <link rel="stylesheet" href="/css/Style-Login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container" id="container">
+
+        <div class="form-container sign-up"> <!-- สมัครสมาชิก -->
+            <form>
+                <img src="/Dashboard/img/KU ADMIN.png" alt="">
+                <h1>สร้างบัญชี</h1>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>ยืนยัน</button>
+            </form>
+        </div>
+
+        <div class="form-container sign-in"> <!-- เข้าสู่ระบบ -->
+            <form>
+                <img src="/Dashboard/img/KU ADMIN.png" alt="">
+                <h1>เข้าสู่ระบบ</h1>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>ยืนยัน</button>
+            </form>
+        </div>
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left"> <!-- ทางเข้าสู่ระบบ -->
+                    <h1>ยินดีต้อนรับ</h1>
+                    <p>ป้อนข้อมูลส่วนตัวของคุณเพื่อใช้งานคุณสมบัติทั้งหมดเว็บไซต์</p>
+                    <button class="hidden" id="Login">เข้าสู่ระบบ</button>
+                </div>
+
+                <div class="toggle-panel toggle-right"> <!-- ทางสมัครสมาชิก -->
+                    <h1>ยินดีต้อนรับ</h1>
+                    <p>ลงทะเบียนด้วยข้อมูลส่วนตัวของคุณเพื่อใช้งานคุณสมบัติทั้งหมดของเว็บไซต์</p>
+                    <button class="hidden" id="register">สร้างบัญชี</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/javascript/Login.js"></script>
+</body>
+
+</html>
